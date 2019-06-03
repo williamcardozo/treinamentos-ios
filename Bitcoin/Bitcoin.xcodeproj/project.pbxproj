@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89086BB8229CDF0C00446151 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89086BB7229CDF0C00446151 /* Extensions.swift */; };
-		89E16CC7229B2B1B0021A2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E16CC6229B2B1B0021A2A9 /* AppDelegate.swift */; };
-		89E16CC9229B2B1B0021A2A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E16CC8229B2B1B0021A2A9 /* ViewController.swift */; };
-		89E16CCC229B2B1B0021A2A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E16CCA229B2B1B0021A2A9 /* Main.storyboard */; };
-		89E16CCE229B2B1C0021A2A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E16CCD229B2B1C0021A2A9 /* Assets.xcassets */; };
-		89E16CD1229B2B1C0021A2A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E16CCF229B2B1C0021A2A9 /* LaunchScreen.storyboard */; };
-		89E16CDA229B2BC00021A2A9 /* Calculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E16CD9229B2BC00021A2A9 /* Calculadora.swift */; };
+		8920739F22A2FA5D002B38BE /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920739E22A2FA5D002B38BE /* UIViewExtensions.swift */; };
+		892073A222A2FAAE002B38BE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892073A122A2FAAE002B38BE /* DesignableView.swift */; };
+		892073A622A2FB1D002B38BE /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892073A522A2FB1D002B38BE /* DesignableButton.swift */; };
+		89BF6E1B22A2DB2B00E5BF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF6E1A22A2DB2B00E5BF21 /* AppDelegate.swift */; };
+		89BF6E1D22A2DB2B00E5BF21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF6E1C22A2DB2B00E5BF21 /* ViewController.swift */; };
+		89BF6E2022A2DB2B00E5BF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF6E1E22A2DB2B00E5BF21 /* Main.storyboard */; };
+		89BF6E2222A2DB2D00E5BF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BF6E2122A2DB2D00E5BF21 /* Assets.xcassets */; };
+		89BF6E2522A2DB2D00E5BF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF6E2322A2DB2D00E5BF21 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89086BB7229CDF0C00446151 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		89E16CC3229B2B1B0021A2A9 /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		89E16CC6229B2B1B0021A2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89E16CC8229B2B1B0021A2A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		89E16CCB229B2B1B0021A2A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89E16CCD229B2B1C0021A2A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		89E16CD0229B2B1C0021A2A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89E16CD2229B2B1C0021A2A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89E16CD9229B2BC00021A2A9 /* Calculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora.swift; sourceTree = "<group>"; };
+		8920739E22A2FA5D002B38BE /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		892073A122A2FAAE002B38BE /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		892073A522A2FB1D002B38BE /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		89BF6E1722A2DB2B00E5BF21 /* Bitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BF6E1A22A2DB2B00E5BF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89BF6E1C22A2DB2B00E5BF21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89BF6E1F22A2DB2B00E5BF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89BF6E2122A2DB2D00E5BF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89BF6E2422A2DB2D00E5BF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89BF6E2622A2DB2D00E5BF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		89E16CC0229B2B1B0021A2A9 /* Frameworks */ = {
+		89BF6E1422A2DB2B00E5BF21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,82 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		89E16CBA229B2B1B0021A2A9 = {
+		8920739D22A2FA3F002B38BE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				89E16CC5229B2B1B0021A2A9 /* Calculadora */,
-				89E16CC4229B2B1B0021A2A9 /* Products */,
+				8920739E22A2FA5D002B38BE /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		892073A022A2FAA0002B38BE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				892073A122A2FAAE002B38BE /* DesignableView.swift */,
+				892073A522A2FB1D002B38BE /* DesignableButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		89BF6E0E22A2DB2B00E5BF21 = {
+			isa = PBXGroup;
+			children = (
+				89BF6E1922A2DB2B00E5BF21 /* Bitcoin */,
+				89BF6E1822A2DB2B00E5BF21 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		89E16CC4229B2B1B0021A2A9 /* Products */ = {
+		89BF6E1822A2DB2B00E5BF21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89E16CC3229B2B1B0021A2A9 /* Calculadora.app */,
+				89BF6E1722A2DB2B00E5BF21 /* Bitcoin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89E16CC5229B2B1B0021A2A9 /* Calculadora */ = {
+		89BF6E1922A2DB2B00E5BF21 /* Bitcoin */ = {
 			isa = PBXGroup;
 			children = (
-				89E16CD8229B2B690021A2A9 /* SupportingFiles */,
-				89E16CC8229B2B1B0021A2A9 /* ViewController.swift */,
-				89E16CCA229B2B1B0021A2A9 /* Main.storyboard */,
-				89E16CD2229B2B1C0021A2A9 /* Info.plist */,
-				89E16CD9229B2BC00021A2A9 /* Calculadora.swift */,
-				89086BB7229CDF0C00446151 /* Extensions.swift */,
+				892073A022A2FAA0002B38BE /* UI */,
+				8920739D22A2FA3F002B38BE /* Extensions */,
+				89BF6E1A22A2DB2B00E5BF21 /* AppDelegate.swift */,
+				89BF6E1C22A2DB2B00E5BF21 /* ViewController.swift */,
+				89BF6E1E22A2DB2B00E5BF21 /* Main.storyboard */,
+				89BF6E2122A2DB2D00E5BF21 /* Assets.xcassets */,
+				89BF6E2322A2DB2D00E5BF21 /* LaunchScreen.storyboard */,
+				89BF6E2622A2DB2D00E5BF21 /* Info.plist */,
 			);
-			path = Calculadora;
-			sourceTree = "<group>";
-		};
-		89E16CD8229B2B690021A2A9 /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				89E16CC6229B2B1B0021A2A9 /* AppDelegate.swift */,
-				89E16CCD229B2B1C0021A2A9 /* Assets.xcassets */,
-				89E16CCF229B2B1C0021A2A9 /* LaunchScreen.storyboard */,
-			);
-			path = SupportingFiles;
+			path = Bitcoin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89E16CC2229B2B1B0021A2A9 /* Calculadora */ = {
+		89BF6E1622A2DB2B00E5BF21 /* Bitcoin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89E16CD5229B2B1C0021A2A9 /* Build configuration list for PBXNativeTarget "Calculadora" */;
+			buildConfigurationList = 89BF6E2922A2DB2D00E5BF21 /* Build configuration list for PBXNativeTarget "Bitcoin" */;
 			buildPhases = (
-				89E16CBF229B2B1B0021A2A9 /* Sources */,
-				89E16CC0229B2B1B0021A2A9 /* Frameworks */,
-				89E16CC1229B2B1B0021A2A9 /* Resources */,
+				89BF6E1322A2DB2B00E5BF21 /* Sources */,
+				89BF6E1422A2DB2B00E5BF21 /* Frameworks */,
+				89BF6E1522A2DB2B00E5BF21 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Calculadora;
-			productName = Calculadora;
-			productReference = 89E16CC3229B2B1B0021A2A9 /* Calculadora.app */;
+			name = Bitcoin;
+			productName = Bitcoin;
+			productReference = 89BF6E1722A2DB2B00E5BF21 /* Bitcoin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		89E16CBB229B2B1B0021A2A9 /* Project object */ = {
+		89BF6E0F22A2DB2B00E5BF21 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "William Cardozo";
 				TargetAttributes = {
-					89E16CC2229B2B1B0021A2A9 = {
-						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
+					89BF6E1622A2DB2B00E5BF21 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 89E16CBE229B2B1B0021A2A9 /* Build configuration list for PBXProject "Calculadora" */;
+			buildConfigurationList = 89BF6E1222A2DB2B00E5BF21 /* Build configuration list for PBXProject "Bitcoin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,56 +132,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 89E16CBA229B2B1B0021A2A9;
-			productRefGroup = 89E16CC4229B2B1B0021A2A9 /* Products */;
+			mainGroup = 89BF6E0E22A2DB2B00E5BF21;
+			productRefGroup = 89BF6E1822A2DB2B00E5BF21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89E16CC2229B2B1B0021A2A9 /* Calculadora */,
+				89BF6E1622A2DB2B00E5BF21 /* Bitcoin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		89E16CC1229B2B1B0021A2A9 /* Resources */ = {
+		89BF6E1522A2DB2B00E5BF21 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E16CD1229B2B1C0021A2A9 /* LaunchScreen.storyboard in Resources */,
-				89E16CCE229B2B1C0021A2A9 /* Assets.xcassets in Resources */,
-				89E16CCC229B2B1B0021A2A9 /* Main.storyboard in Resources */,
+				89BF6E2522A2DB2D00E5BF21 /* LaunchScreen.storyboard in Resources */,
+				89BF6E2222A2DB2D00E5BF21 /* Assets.xcassets in Resources */,
+				89BF6E2022A2DB2B00E5BF21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		89E16CBF229B2B1B0021A2A9 /* Sources */ = {
+		89BF6E1322A2DB2B00E5BF21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E16CDA229B2BC00021A2A9 /* Calculadora.swift in Sources */,
-				89E16CC9229B2B1B0021A2A9 /* ViewController.swift in Sources */,
-				89E16CC7229B2B1B0021A2A9 /* AppDelegate.swift in Sources */,
-				89086BB8229CDF0C00446151 /* Extensions.swift in Sources */,
+				892073A222A2FAAE002B38BE /* DesignableView.swift in Sources */,
+				89BF6E1D22A2DB2B00E5BF21 /* ViewController.swift in Sources */,
+				8920739F22A2FA5D002B38BE /* UIViewExtensions.swift in Sources */,
+				892073A622A2FB1D002B38BE /* DesignableButton.swift in Sources */,
+				89BF6E1B22A2DB2B00E5BF21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		89E16CCA229B2B1B0021A2A9 /* Main.storyboard */ = {
+		89BF6E1E22A2DB2B00E5BF21 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				89E16CCB229B2B1B0021A2A9 /* Base */,
+				89BF6E1F22A2DB2B00E5BF21 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		89E16CCF229B2B1C0021A2A9 /* LaunchScreen.storyboard */ = {
+		89BF6E2322A2DB2D00E5BF21 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				89E16CD0229B2B1C0021A2A9 /* Base */,
+				89BF6E2422A2DB2D00E5BF21 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		89E16CD3229B2B1C0021A2A9 /* Debug */ = {
+		89BF6E2722A2DB2D00E5BF21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -240,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		89E16CD4229B2B1C0021A2A9 /* Release */ = {
+		89BF6E2822A2DB2D00E5BF21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,36 +306,36 @@
 			};
 			name = Release;
 		};
-		89E16CD6229B2B1C0021A2A9 /* Debug */ = {
+		89BF6E2A22A2DB2D00E5BF21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S84GS7W63Q;
-				INFOPLIST_FILE = Calculadora/Info.plist;
+				INFOPLIST_FILE = Bitcoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.williamcardozo.Calculadora;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.williamcardozo.Bitcoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		89E16CD7229B2B1C0021A2A9 /* Release */ = {
+		89BF6E2B22A2DB2D00E5BF21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S84GS7W63Q;
-				INFOPLIST_FILE = Calculadora/Info.plist;
+				INFOPLIST_FILE = Bitcoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.williamcardozo.Calculadora;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.williamcardozo.Bitcoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89E16CBE229B2B1B0021A2A9 /* Build configuration list for PBXProject "Calculadora" */ = {
+		89BF6E1222A2DB2B00E5BF21 /* Build configuration list for PBXProject "Bitcoin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89E16CD3229B2B1C0021A2A9 /* Debug */,
-				89E16CD4229B2B1C0021A2A9 /* Release */,
+				89BF6E2722A2DB2D00E5BF21 /* Debug */,
+				89BF6E2822A2DB2D00E5BF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89E16CD5229B2B1C0021A2A9 /* Build configuration list for PBXNativeTarget "Calculadora" */ = {
+		89BF6E2922A2DB2D00E5BF21 /* Build configuration list for PBXNativeTarget "Bitcoin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89E16CD6229B2B1C0021A2A9 /* Debug */,
-				89E16CD7229B2B1C0021A2A9 /* Release */,
+				89BF6E2A22A2DB2D00E5BF21 /* Debug */,
+				89BF6E2B22A2DB2D00E5BF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 89E16CBB229B2B1B0021A2A9 /* Project object */;
+	rootObject = 89BF6E0F22A2DB2B00E5BF21 /* Project object */;
 }
