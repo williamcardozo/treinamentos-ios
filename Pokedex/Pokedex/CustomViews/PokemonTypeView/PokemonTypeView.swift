@@ -33,9 +33,15 @@ class PokemonTypeView: UIView {
         contentView.fixInView(self)
     }
     
-    func config(type: PokemonType) {
+    func config(type: PokemonType, shouldRenderLabel: Bool = true) {
         self.typeImageView.image = type.icon
-        self.typeLabel.text = type.rawValue.capitalized
+        
+        if shouldRenderLabel {
+            self.typeLabel.text = type.rawValue.capitalized
+        } else {
+            self.typeLabel.isHidden = true
+        }
+        
         self.contentView.backgroundColor = type.color
     }
 }

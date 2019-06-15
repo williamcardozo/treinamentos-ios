@@ -13,10 +13,8 @@ class PokemonTableViewCell: UITableViewCell {
     @IBOutlet weak var pictureImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var idLabel: UILabel!
-    @IBOutlet weak var primaryTypeImageView: UIImageView!
-    @IBOutlet weak var secondaryTypeImageView: UIImageView!
-    @IBOutlet weak var primaryTypeView: UIView!
-    @IBOutlet weak var secondaryTypeView: UIView!
+    @IBOutlet weak var primaryTypeView: PokemonTypeView!
+    @IBOutlet weak var secondaryTypeView: PokemonTypeView!
     
     
     func config(with model: Pokemon) {
@@ -25,18 +23,15 @@ class PokemonTableViewCell: UITableViewCell {
         nameLabel.text = model.name.capitalized
         idLabel.text =  String(format: "#%03d", Int(model.id)!)
         
-        let primaryType = model.types.first
-        
-        primaryTypeImageView.image = primaryType?.icon
-        primaryTypeView.backgroundColor = primaryType?.color
+        if let primaryType = model.types.first {
+            primaryTypeView.config(type: primaryType, shouldRenderLabel: false)
+        }
         
         if model.types.count > 1 {
             let secondaryType = model.types[1]
-            secondaryTypeImageView.image = secondaryType.icon
-            secondaryTypeView.backgroundColor = secondaryType.color
-            secondaryTypeImageView.superview?.isHidden = false
+            secondaryTypeView.config(type: secondaryType, shouldRenderLabel: false)
         } else {
-            secondaryTypeImageView.superview?.isHidden = true
+            secondaryTypeView.isHidden = true
         }
     }
 }

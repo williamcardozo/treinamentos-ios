@@ -58,7 +58,6 @@ class DetailViewController: UIViewController {
         }
     }
     
-    
     func requestPokemon() {
         if let pokemon = self.pokemon {
             let requestMaker = RequestMaker()
